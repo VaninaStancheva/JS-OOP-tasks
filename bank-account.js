@@ -2,9 +2,10 @@ class BankAccount {
     #balance
     #accountNumber
 
-    constructor (balance, accountNumber) {
+    constructor (balance, accountNumber, number) {
         this.#accountNumber = accountNumber;
         this.#balance = balance;
+        this.number = number
     }
 
     deposit(amount) {
