@@ -5,7 +5,7 @@ class Book {
         this.yearPublished = yearPublished;
     }
 
-    getSummary(book) {
+    getSummary() {
         const summery = `${this.title}, ${this.author}, ${this.yearPublished}`;
         console.log(summery)
     }
